@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Undangan Ujian Praktik</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
+<!-- simplycountdown -->
+<link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- bootstraps icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+      <main>
+        <h4>Kepada panelis yang terhormat.</h4>
+        <h1>Siswa/siswi kelas XII IPS 2</h1>
+        <p>Akan melangsungkan Ujian praktik dalam: </p>
+        <div class="simply-countdown"></div>
+        <a href="#Undangan" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
+      </main>
+    </section>  
+
+    <nav class="navbar navbar-expand-md bg-body-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Assosive</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Assosive</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#note">Note</a>
+              <a class="nav-link" href="#Gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Debat Terbuka</h2>
+            <h3>calon ketua dan wakil ketua BEM Universitas setu permai dengan tema "Bersama BEM membangun generasi yang Humanif, Adaptif, Kreatif, Inovatif, Nasionalis dan ber-Intergritas"</h3>
+            <h4>Diselenggarakan pada 21 Februari 2024</h4>
+            <p>Oleh karena itu, dengan segala hormat, kami Bermaksud mengundang bapak/ibu untuk hadir dalam pelaksanaan penilaian ujian praktik ini. </p>
+          </div>
+        </div>
+
+        <div class="row couple mt-5">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>M.Arfie Ihwansyah-Amanda Aisha Wahyu Mutia</h3>
+                <P>Menjadikan BEM USP sebagai sarana penampungan Kreatifitas, Inspirasi dan Aspirasi Mahasiswa, juga meningkatkan BEM sebagai Badan Eksekutif Mahasiswa USP yang bermutu, beraklak mulia, tampil beda, jujur, adil, disipin dalam lingkup Kampus dan Masyarakat.</P>
+              </div>
+              <div class="col-4">
+                <img src="img/IMG-20240215-WA0027.jpg" alt="M.Arfie-Amanda Aisha" class="img-responsive rounded-circle">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/adul.jpg" alt="M.Abdul Fahri-Laila Nur Hamidah" class="img-responsive rounded-circle">
+              </div>
+              <div class="col-8">
+                <h3>M.Abdul Fahri-Laila Nur Hamidah</h3>
+                <P>Mewujudkan BEM USP sebagai lembaga eksekutif yang interaktif kepada mahasiswa dan masyarakat yang berwawasan demi terciptanya kreatifitas dan inovasi.</P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: SMAN 1 Setu <br> Lubangbuaya, Kec. Setu, Kabupaten Bekasi, Jawa Barat</p>
+            <a href="https://maps.app.goo.gl/se8DcLhtmFdjpytE7" target="_blank" class="btn btn-light btn-sm my-3  ">Klik untuk membuka peta</a>
+            <p class="description"></p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-5 col-10">
+              <div class="card text-center text-bg-light mb-5">
+                <div class="card-header">
+                  Debat antar paslon
+                </div>
+                <div class="card-body">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6">
+                      <i class="bi bi-clock d-block"></i>
+                      <span>07.30 - 09.00</span>
+                    </div>
+                    <div class="col-md-6">
+                      <i class="bi bi-calendar3 d-block"></i>
+                      <span>Selasa, 21 Februari 2024</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="note" class="note">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span> </span>
+            <h2>Visi-Misi & Program kerja</h2>
+            <p>Berikut adalah Visi,Misi,serta Program kerja yang akan kami gunakan selama masa jabatan kami</p>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/2222.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Paslon 01</h3>
+                    <span> Visi-Misi</span> 
+                  </div>
+                  <div class="timeline-body">
+                    <p>VISI: Menjadikan BEM USP sebagai sarana penampungan Kreatifitas, Inspirasi dan Aspirasi Mahasiswa, juga meningkatkan BEM sebagai Badan Eksekutif Mahasiswa USP yang bermutu, beraklak mulia, tampil beda, jujur, adil, disipin dalam lingkup Kampus dan Masyarakat.
+
+                     <p> MISI: 1. Mendorong kesadaran kepada para mahasiswa/i akan dampak bahaya dari pakaian yang mereka pakai terhadap lingkungan sekitar
+                      2. memberdayakan mahasiswa/i kampus untuk mengembangkan jiwa kewirausahaan yang tangguh dan kreatif
+                      3. menciptakan rasa nasionalisme melalui kegiatan peringatan hari nasional bagi mahasiswa/i
+                      4. meningkatkan pemahaman tentang perubahan alih fungsi lahan kampus
+                     </p>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/1111.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Paslon 02</h3>
+                    <span> Visi-Misi</span> 
+                  </div>
+                  <div class="timeline-body">
+                    <p>Visi: Mewujudkan BEM USP sebagai lembaga eksekutif yang interaktif kepada mahasiswa dan masyarakat yang berwawasan demi terciptanya kreatifitas dan inovasi
+
+                      <p>MISI: 1. Menerapkan jiwa kewirausahaan mahasiswa agar terciptanya mahasiswa yang kreatif, inovatif dan produktif
+                      2. Meningkatkan peran serta mahasiswa dalam kebersihan lingkungan kampus dan sekitarnya dengan memelihara nilai kekeluargaan dan gotong royong
+                      3. Menumbuhkan kesadaran sejarah untuk membangkitkan rasa nasionalisme
+                      4. Menumbuhkan rasa peduli mahasiswa terhadap lahan hijau kampus
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/2222.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Paslon 01</h3>
+                    <span> Program kerja </span> 
+                  </div>
+                  <div class="timeline-body">
+                    <p>1. menyelenggarakan sesi penyuluhan di kampus tentang etika berpakaian, norma norma sosial terkait berpakaian dan bagaimana pilihan berpakaian dapat mempengaruhi persepsi diri dan orang lain
+                      2. mengadakan komunitas kewirausahaan dengan membangun komunitas di kampus yang mendukung ide dan dukungan antar mahasiswa/i yang tertarik pada kewirausahaan
+                      3. mengadakan diskusi dan seminar sejarah dengan narasumber ahli untuk mendalami berbagai aspek sejarah nasional
+                      4. mengadakan workshop dan seminar edukasi tentang perubahan alih fungsi lahan kampus
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/1111.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Paslon 02</h3>
+                    <span> Program Kerja</span> 
+                  </div>
+                  <div class="timeline-body">
+                    <p>1. (CREATIVEPRANER) menyelenggarakan pelatihan cara berdagang dengan sistem online dengan menggunakan fasilitas internet dan menyelenggarakan bazar event untuk menumbuhkan jiwa kewirausahaan dalam diri mahasiswa dan masyarakat
+                      2. Bekerjasama dengan organisasi peduli lingkungan dengan menyelenggarakan plastic bag free day di setiap minggunya serta mengajak himpunan untuk mengadakan gotong royong setiap satu bulan sekali
+                      3. Mengadakan pameran museum serta menyelenggaran NOBAR CERAH untuk memperingati hari pahlawan
+                      4. Mempertahankan lahan hijau kampus
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Gallery" class="Gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>  </span>
+            <h2>Galeri</h2>
+            <p>Galeri antar paslon</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/gallery/IMG-20240215-WA0027.jpg" data-toggle="lightbox" data-caption="Paslon 01" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/IMG-20240215-WA0027.jpg" alt="Paslon 01" class="img-fluid w-100 rounded">
+            </a>  
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/WhatsApp Image 2024-02-16 at 20.06.15.jpeg" data-toggle="lightbox" data-caption="M. Arfie ihwansyah" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/WhatsApp Image 2024-02-16 at 20.06.15.jpeg" alt="M. Arfie ihwansyah" class="img-fluid w-100 rounded">
+            </a>  
+          </div>  
+          <div class="col mt-3">
+            <a href="img/gallery/WhatsApp Image 2024-02-17 at 10.03.03.jpeg" data-toggle="lightbox" data-caption="Amanda aisha wahyu muthia" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/WhatsApp Image 2024-02-17 at 10.03.03.jpeg" alt="Amanda aisha wahyu muthia" class="img-fluid w-100 rounded">
+            </a>  
+          </div>  
+          <div class="col mt-3">
+            <a href="img/gallery/Picsart_24-02-15_11-28-51-100.jpg" data-toggle="lightbox" data-caption="Paslon 02" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/Picsart_24-02-15_11-28-51-100.jpg" alt="Paslon 02" class="img-fluid w-100 rounded">
+            </a>  
+          </div>  
+          <div class="col mt-3">
+            <a href="img/gallery/71ca34a7-d14a-466b-bd11-07a807bb21ae.jpg" data-toggle="lightbox" data-caption="M.Abdul Fahri" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/71ca34a7-d14a-466b-bd11-07a807bb21ae.jpg" alt="M.Abdul fahri" class="img-fluid w-100 rounded">
+            </a>  
+          </div>  
+          <div class="col mt-3">
+            <a href="img/gallery/WhatsApp Image 2024-02-17 at 20.10.57.jpeg" data-toggle="lightbox" data-caption="Laila nur Hamidah" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/WhatsApp Image 2024-02-17 at 20.10.57.jpeg" alt="Naila nur Hamidah" class="img-fluid w-100 rounded">
+            </a>  
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>isi form dibawah ini untuk melakukan konfirmasi Kehadiran</p>
+          </div>
+        </div>
+
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" 
+        action="https://script.google.com/macros/s/AKfycbwiZiZPO_rdTqdJZoRVOkZNprCv29NoNvBwlGBHDNs68aFlFmeQqBGO3OSuqoKrqGcTpA/exec" id="my-form">
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Jumlah</label>
+              <input type="number" class="form-control" id="nama" name="jumlah" min="1" max="1" length="1" value="1">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>pilih salah satu</option>
+                <option value="Hadir">Hadir</option>
+                <option value="Tidak Hadir">Tidak Hadir</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px;">
+            <button class="btn btn-primary">kirim</button>
+          </div>
+        </form>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2024 Assosive. All Rights Reserved.</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+  <script>
+    simplyCountdown('.simply-countdown', {
+      year: 2024, // required
+            month: 2, // required
+            day: 21, // required
+            hours: 8, // Default is 0 [0-23] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            }
+    })
+  </script>
+
+  <script>
+  const hamburger = document.querySelector('.navbar-toggler');
+  const stickyTop = document.querySelector('.sticky-top');
+  const offcanvas = document.querySelector('.offcanvas');
+
+  offcanvas.addEventListener('show.bs.offcanvas', function(){
+    stickyTop.style.overflow = 'visible';
+  });
+
+  offcanvas.addEventListener('hidden.bs.offcanvas', function(){
+    stickyTop.style.overflow = 'hidden';
+  });
+    
+  </script>
+
+  <script>
+    const rootElement = document.querySelector(":root");
+
+    function disableScroll() {
+      scrolltop = window.pageYOffset || document.documentElement.scrollTop;
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+      window.onscroll = function() {
+        window.scrollTo(scrollTop,scrollLeft);
+      }
+
+      rootElement.style.scrollBehavior = 'auto';
+    }
+
+    function enableScroll() {
+      window.onscroll = function () { }
+      rootElement.style.scrollBehavior = 'smooth';
+    }
+
+    disableScroll();
+  </script>
+  <script>
+    window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("konfirmasi Kehadiran Berhasil Terkirim!");
+    })
+  });
+});
+
+  </script>
+  </body>
+
+</html>
